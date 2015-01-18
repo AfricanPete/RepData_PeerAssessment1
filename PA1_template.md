@@ -1,9 +1,4 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
 
 
 ## Loading and preprocessing the data
@@ -30,7 +25,7 @@ barplot(totalSteps$steps, names.arg = totalSteps$date, main = "Total number of
         steps taken each day",xlab = "Date", ylab = "Steps")
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
+![](./PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
 
 2. Calculate and report the **mean** and **median** total number of
    steps taken per day      
@@ -72,7 +67,7 @@ plot(
 )
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png) 
+![](./PA1_template_files/figure-html/unnamed-chunk-6-1.png) 
 
 2.Which 5-minute interval, on average across all the days in the dataset, 
 contains the maximum number of steps?   
@@ -125,7 +120,7 @@ barplot(totalInculdeSteps$steps, names.arg = totalInculdeSteps$date, main = "Tot
         steps taken each day",xlab = "Date", ylab = "Steps")
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
+![](./PA1_template_files/figure-html/unnamed-chunk-10-1.png) 
 
 Do these values differ from the estimates from the first part of the assignment?   
 
